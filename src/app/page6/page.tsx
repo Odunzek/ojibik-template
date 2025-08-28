@@ -25,7 +25,7 @@ const TestPage1: React.FC = () => {
             </div>
             <div className="absolute left-[1.47in] top-[0.8in] z-[2] text-[#4b5846] font-[Diagramm-Medium] text-[13pt] leading-[23pt]">
               {/* @ISSUE: seperate    8 ........Attachment A into <span>8</span> <span>........Attachment A</span> */}
-              {/* @ISSUE: remove br tag use other tag for newline */}
+              {/* @ISSUE: remove br tag use other tag for newline like u can use p tag, div tag etc*/}
               {/* Reason: we need to make it pure dynamic in future */}
               8 ........Attachment A<br />
               12 ......Summary of Stated Evaluation Criteria<br />
