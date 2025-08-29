@@ -1,5 +1,133 @@
 @import "tailwindcss";
 
+@font-face {
+  font-family: 'LarkenDEMO-Light';
+  src: url('/fonts/LarkenDEMO-Light.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'LarkenDEMO-Regular';
+  src: url('/fonts/LarkenDEMO-Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'LarkenDEMO-Medium';
+  src: url('/fonts/LarkenDEMO-Medium.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'LarkenDEMO-Italic';
+  src: url('/fonts/LarkenDEMO-Italic.otf') format('opentype');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'LarkenDEMO-MediumItalic';
+  src: url('/fonts/LarkenDEMO-MediumItalic.otf') format('opentype');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Diagramm-Light';
+  src: url('/fonts/Diagramm-Light.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Diagramm-Light-Italic';
+  src: url('/fonts/Diagramm-Light-Italic.otf') format('opentype');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Diagramm-Regular';
+  src: url('/fonts/Diagramm-Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Diagramm-Medium';
+  src: url('/fonts/Diagramm-Medium.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Diagramm-SemiBold';
+  src: url('/fonts/Diagramm-SemiBold.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Diagramm-Bold';
+  src: url('/fonts/Diagramm-Bold.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Diagramm-Ultra-Bold';
+  src: url('/fonts/Diagramm-Ultra-Bold.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'HelveticaNeue';
+  src: url('/fonts/HelveticaNeue.ttc') format('truetype-collection');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'HelveticaNeueLTPro-Blk';
+  src: url('/fonts/HelveticaNeueLTPro-Blk.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'HelveticaNeueLTPro-Cn';
+  src: url('/fonts/HelveticaNeueLTPro-Cn.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'HelveticaNeueLTPro-Md';
+  src: url('/fonts/HelveticaNeueLTPro-Md.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
