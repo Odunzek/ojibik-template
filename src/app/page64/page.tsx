@@ -2,24 +2,6 @@
 
 import React from "react";
 import LetterPage from "../components/LetterPage";
-
-const Page64: React.FC = () => {
-  return (
-    <div className="flex items-center justify-center min-h-screen bg-gray-100 p-4">
-      <LetterPage backgroundColor="white">
-        <div className="text-center text-lg font-bold text-gray-700">
-          Page 64 content goes here.
-        </div>
-      </LetterPage>
-    </div>
-  );
-};
-
-export default Page64;
-"use client";
-
-import React from "react";
-import LetterPage from "../components/LetterPage";
 import Image from "next/image";
 
 // Re-usable pill
@@ -34,7 +16,7 @@ const Pill2 = ({ label }: { label: string }) => (
   </div>
 );
 
-const page64: React.FC = () => {
+const Page64: React.FC = () => {
   return (
     <div className="flex items-center justify-center min-h-screen bg-gray-100 p-4">
       <LetterPage backgroundColor="white">
@@ -188,4 +170,4 @@ const page64: React.FC = () => {
   );
 };
 
-export default page64;
+export default Page64;
