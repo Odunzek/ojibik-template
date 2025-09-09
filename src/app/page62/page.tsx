@@ -94,7 +94,7 @@ const page62: React.FC = () => {
               width={1}
               height={1}
               sizes={`${6.6 * 96}px`}
-              className="left-[5.2663in] top-[5.0053in] w-[0.4787in] h-[0.2.188in] absolute z-1"
+              className="left-[5.2663in] top-[5.0053in] w-[0.4787in] h-[0.2188in] absolute z-1"
               priority
             />
         
