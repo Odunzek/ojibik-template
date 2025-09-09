@@ -1,4 +1,4 @@
-// src/app/criteria-checklist/page.tsx
+ // src/app/criteria-checklist/page.tsx
 "use client";
 
 import React from "react";
@@ -99,11 +99,11 @@ const Page12: React.FC = () => {
 
             <thead className="">
               {/* fixed header height (tune if needed) */}
-              <tr className="border-b-3 border-[#4b5846] h-[0.4in]">
-                <th className="p-2 text-left font-[Diagramm-Bold] text-[9pt] text-[#4b5846] border-r-2 border-[#4b5846]">
+              <tr className="items-center text-center border-b-3 border-[#4b5846] h-[0.4in]">
+                <th className="p-2 text-center font-[Diagramm-Bold] text-[9pt] text-[#4b5846] border-r-2 border-[#4b5846]">
                   Evaluation Criteria
                 </th>
-                <th className="p-2 text-left font-[Diagramm-Bold] text-[9pt] text-[#4b5846] border-r-2 border-[#4b5846]">
+                <th className="p-2 text-center align-middle font-[Diagramm-Bold] text-[9pt] text-[#4b5846] border-r-2 border-[#4b5846]">
                   Included
                 </th>
                 <th className="p-2 text-left font-[Diagramm-Bold] text-[9pt] text-[#4b5846]">
