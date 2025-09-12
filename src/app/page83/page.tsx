@@ -48,10 +48,10 @@ const Page83: React.FC = () => {
           {/* Main Title */}
           <div className="absolute left-[0.75in] top-[0.675in]  text-[#4b5846]">
             <div className="flex items-baseline flex-nowrap">
-              <span className="mr-2 whitespace-nowrap font-[LarkenDEMO-Regular] text-[26.4pt] leading-[31.68pt]">
+              <span className="mr-2 whitespace-nowrap font-[LarkenDEMO-light] text-[26.4pt] leading-[31.68pt]">
                 Living Space » 
               </span>
-              <span className="min-w-0 whitespace-normal font-[LarkenDEMO-Medium] text-[15pt] leading-[17.5pt]">
+              <span className="min-w-0 whitespace-normal font-[LarkenDEMO-light] text-[15pt] leading-[17.5pt]">
                 405A, 406A, 407A, 505A, 506A, 507A
               </span>
             </div>
@@ -78,9 +78,6 @@ const Page83: React.FC = () => {
 
           {/* pills */}
           <div>
-            <div className="absolute left-[6.3149in] top-[4.4658in]">
-                  <Pill2 label="Brochure" />
-            </div>
             <div className="absolute left-[6.3176in] top-[5.0154in]">
                 <Pill label="Finishes" />
             </div>
@@ -106,7 +103,7 @@ const Page83: React.FC = () => {
               width={1}
               height={1}
               sizes={`${6.6 * 96}px`}
-              className="left-[5.2663in] top-[5.0053in] w-[0.5161in] h-[0.1332in] absolute z-1"
+              className="left-[5.2663in] top-[5.0053in] w-[0.47871in] h-[0.2188in] absolute z-1"
               priority
             />
         
@@ -126,21 +123,21 @@ const Page83: React.FC = () => {
             </div>
           </div>
 
-              {/* top logo */}
+              {/* bottom logo */}
             <Image
               src="/icons/spec.png"
               alt="Spec Logo"
               width={1}
               height={1}
               sizes={`${6.6 * 96}px`}
-              className="left-[3.6848in] top-[8.6299in] w-[0.3136in] h-[0.1433in] absolute z-1"
+              className="left-[3.6848in] top-[8.6299in] w-[0.3136in] h-[0.085in] absolute z-1"
               priority
             />          
           {/* Expansion table */}
           <div className="absolute left-[0.7558in] top-[8.9351in] ">          
             <div className=" font-[LarkenDEMO-Light] text-[20pt] leading-[16pt] text-[#4b5846]">
               Parkdale Table
-              <div className="mt-2 mb-2 h-[1px] w-[3.405in] bg-[#4b5846]" />
+              <div className="mt-2 mb-2 h-[2px] w-[1.79in] bg-[#4b5846]" />
             </div>
 
             <div className=" absolute  text-[9pt] leading-[11pt] text-[#333] font-[Diagramm-Regular]">
@@ -151,6 +148,9 @@ const Page83: React.FC = () => {
             </div>
           </div>
           {/* pill */}
+          <div className="absolute left-[2.7253in] top-[9.3558in]">
+                  <Pill2 label="Brochure" />
+          </div>
           <div className="absolute left-[2.726in] top-[9.9054in]">
                 <Pill label="Finishes" />
           </div>
@@ -182,7 +182,7 @@ const Page83: React.FC = () => {
           <div className="absolute left-[4.344in] top-[8.9351in] ">          
             <div className=" font-[LarkenDEMO-Light] text-[20pt] leading-[16pt] text-[#4b5846]">
               Table Zones
-              <div className="mt-2 mb-2 h-[1px] w-[3.405in] bg-[#4b5846]" />
+              <div className="mt-2 mb-2 h-[2px] w-[3.405in] bg-[#4b5846]" />
             </div>
 
             <div className=" absolute  text-[9pt] leading-[11pt] text-[#333] font-[Diagramm-Regular]">
